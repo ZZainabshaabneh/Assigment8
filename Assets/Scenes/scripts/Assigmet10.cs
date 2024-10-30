@@ -10,7 +10,7 @@ public class MultiplicationTable : MonoBehaviour
         for (int i = 1; i <= 10; i++)
         {
             int n = Multiply(5, i);
-            Debug.Log(n);
+            Debug.Log("5 x " + i + " = " + n);
         }
     }
     public static int Multiply(int n1, int n2)

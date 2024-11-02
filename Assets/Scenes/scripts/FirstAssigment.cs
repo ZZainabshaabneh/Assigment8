@@ -35,8 +35,11 @@ public class FirstAssigment : MonoBehaviour
         int count = 0;
         while (count < 20)
         {
-            int num = Random.Range(1, 20);
-            if (num == 5) continue;
+            int num = Random.Range(1, 21);
+            if (num == 5) {
+            count ++;
+             continue;
+             }
             if (num == 15) break;
             Debug.Log(num);
             count++;
